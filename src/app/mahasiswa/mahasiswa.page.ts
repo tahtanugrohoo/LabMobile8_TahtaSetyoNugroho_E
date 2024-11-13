@@ -87,6 +87,7 @@ export class MahasiswaPage implements OnInit {
       console.log('gagal tambah mahasiswa karena masih ada data yg kosong');
     }
   }
+  
 
   hapusMahasiswa(id: any) {
     this.api.hapus(id,
